@@ -1,11 +1,15 @@
 # theGuarantorsRestAPIAutomation
 
-This is Test Repository for RestAPI Automation using HTTP Client. 
+- RestAPI Automation using HTTP Client. 
+
 Test Setup :  Since this service is just adding validation to the node application.
+
 The endpoint https://research.theguarantors.com/qa-test/ Can be tested with Postman. 
+
 Invalid input should return a 400 Bad Request response with the body object like the following : 
 
 SyntaxError: Unexpected token l in JSON at position 17
+
     at JSON.parse (<anonymous>)
     at parse (/srv/qa-test/node_modules/body-parser/lib/types/json.js:89:19)
     at /srv/qa-test/node_modules/body-parser/lib/read.js:121:18
@@ -16,8 +20,8 @@ SyntaxError: Unexpected token l in JSON at position 17
     at endReadableNT (_stream_readable.js:1106:12)
     at process._tickCallback (internal/process/next_tick.js:178:19)
     
-    
 Test Cases :     
+
 1.Validate the sorting service returns sorted list of numbers in asending order with valid input. 
 
 2. validate the sorting service without header content type 
