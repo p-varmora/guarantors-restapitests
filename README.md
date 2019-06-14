@@ -23,13 +23,21 @@ SyntaxError: Unexpected token l in JSON at position 17
 Test Cases :     
 
 1.Validate the sorting service returns sorted list of numbers in asending order with valid input. 
+
 2.validate the sorting service without header content type 
+
 3.validate the sorting service without payloads
+
 4.validate the sorting service with invalid input 
+
 5.validate the sorting service with string, negative, decimal elements in a list , returns a list of elements in ascending order 
+
 6.validate the sorting service with more than one key value pair Jason payloads 
+
 7.validating the sorting service returns large integer as exponential function 
+
 8.validate the sorting service with empty array 
+
 9.Validate the sorting service request query parameters not configured properly 
 
   
